@@ -520,9 +520,7 @@ namespace Elsasoft.ScriptDb
             string programmability = Path.Combine(outputDirectory, "Programmability");
             string assemblies = Path.Combine(programmability, "Assemblies");
             string dropAssemblies = Path.Combine(assemblies, "Drop");
-            //            if (!Directory.Exists(programmability)) Directory.CreateDirectory(programmability);
-            //            if (!Directory.Exists(assemblies)) Directory.CreateDirectory(assemblies);
-            //            if (!Directory.Exists(dropAssemblies)) Directory.CreateDirectory(dropAssemblies);
+
 
             foreach (SqlAssembly smo in db.Assemblies)
             {
